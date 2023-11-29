@@ -5,6 +5,9 @@ from nltk.probability import FreqDist
 from nltk.corpus import stopwords 
 import spacy
 from gensim import corpora, models
+import nltk
+nltk.download(stopwords)
+nltk.download
 
 class ModelTrainer:
     def __init__(self, data_path):
